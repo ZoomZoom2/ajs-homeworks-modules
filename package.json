@@ -1,0 +1,38 @@
+{
+  "name": "modules",
+  "version": "1.0.0",
+  "description": "game",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "serve": "http-server ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.3",
+    "http-server": "^14.1.1",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "serve": "http-server ./src",
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZoomZoom2/ajs-homeworks-modules.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "ZoomZoom2",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZoomZoom2/ajs-homeworks-modules/issues"
+  },
+  "homepage": "https://github.com/ZoomZoom2/ajs-homeworks-modules#readme"
+}
